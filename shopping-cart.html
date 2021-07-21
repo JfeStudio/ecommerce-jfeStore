@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="icon" href="images/logo_small.png">
+
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo_small.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav m-auto justify-content-between col-lg-7 text-uppercase">
+          <li class="nav-item active">
+            <a class="nav-link text-warning" href="index.html" style="font-weight: 600;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pages
+            </a>
+            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <div class="cart-shopping d-flex py-2">
+          <a class="nav-link p-0 cart-shop" href="#"><img class="mr-3" src="images/search-cart.svg" alt="" width="22"></a>
+          <a class="nav-link p-0 cart-shop" href="#"><img src="images/cart-shopping.svg" alt="" width="22"><span class="badge badge-danger badge-pill">5</span></a>
+          <a class="nav-link p-0 cart-shop" href="#"><img src="images/user-cart.svg" alt="" width="22"><span class="badge badge-danger badge-pill">3</span></a>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <!--Navbar End-->
+   
+    <!--Breadcrumb-->
+    <div class="container mt-5">
+        <div class="row py-4">
+            <div class="col mt-1">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-light">
+                      <li class="breadcrumb-item"><a class="text-warning" href="index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a class="text-warning" href="single-product.html">Single Products</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                    </ol>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <!--ends-->
+
+    <!--Shopping-cart-->
+    <section class="shopping-cart mt-4">
+        <div class="container">
+            <div class="row pb-3 mx-1">
+                <div class="col intro-cart d-flex justify-content-around align-items-center">
+                    <h6>1.Shopping Cart</h6>
+                    <h6 class="text-muted" style="font-weight: 400;">2.Checkout</h6>
+                    <h6 class="text-muted" style="font-weight: 400;">3.Completed</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <td style="font-weight: 400;" scope="col"><h6 class="pt-4">-</h6></td>
+                            <td style="font-weight: 400;" scope="col"><p class="pt-4">Product</p></td>
+                            <td style="font-weight: 400;" scope="col"><p class="pt-4">Quantity</p></td>
+                            <td style="font-weight: 400;" scope="col"><p class="pt-4">Price</p></td>
+                            <td style="font-weight: 400;" scope="col"><p class="pt-4">Total</p></td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><img class="mt-4" src="images/close-x.svg" alt="" width="15px"></td>
+                            <td><img src="images/buy-1.jpg" alt="" width="75px"></td>
+                            <td><p class="mt-4 ml-4">1</p></td>
+                            <td><p class="mt-4 text-success">$ 20.00</p></td>
+                            <td><p class="mt-4 text-success">$ 20.00</p></td>
+                          </tr>
+                          <tr>
+                            <td><img class="mt-4" src="images/close-x.svg" alt="" width="15px"></td>
+                            <td><img src="images/buy-2.jpg" alt="" width="75px"></td>
+                            <td><p class="mt-4 ml-4">1</p></td>
+                            <td><p class="mt-4 text-success">$ 80.00</p></td>
+                            <td><p class="mt-4 text-success">$ 80.00</p></td>
+                          </tr>
+                          <tr>
+                            <td><img class="mt-4" src="images/close-x.svg" alt="" width="15px"></td>
+                            <td><img src="images/buy-3.jpg" alt="" width="75px"></td>
+                            <td><p class="mt-4 ml-4">2</p></td>
+                            <td><p class="mt-4 text-success">$ 15.00</p></td>
+                            <td><p class="mt-4 text-success">$ 15.00</p></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="row align-items-center border-top mx-1 py-4">
+                <div class="col-9 col-lg-6">
+                        <button style="font-size: 15px;" class="btn mb-2 mb-lg-0 mb-md-0 mb-sm-2 px-4 mr-2 btn-light disabled border rounded-pill text-dark btn-lg" type="button">Enter Coupon Code Here</button>
+                        <button style="font-size: 15px;" class="btn px-4 btn-info text-white btn-lg rounded-pill" data-toggle="button" type="button">Apply Coupon</button>
+                </div>
+                <div class="col-3 col-lg-6 text-right"> 
+                    <h6>Total</h6>
+                    <p class="text-success">$150.000</p>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col text-right d-flex justify-content-end mt-2">
+                    <a style="font-size: 16px;padding: 11px;" class="btn px-lg-5 px-4 mr-2 mr-lg-2 mb-lg-0 btn-ligt border border-warning text-warning btn-lg" href="index.html" role="button">Continue Shoping</a>
+                    <a style="font-size: 16px;padding: 11px;" class="btn px-lg-5 px-4 btn-warning text-white btn-lg" href="checkout.html" role="button">Proceed Checkout</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Ends-->
+  
+    <!--Footer-->
+
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-4 col-sm-4 col-lg-3 col-footer mb-4">
+            <img src="images/logo_small.png" alt="">
+            <h6 class="text-warning mt-2">Jfe Store</h6>
+            <p class="my-3" style="font-size: 14px;">The ultimate way to create your new contemparary fashion store</p>
+            <div class="app d-flex mt-lg-4">
+              <img src="images/app-store.png" class="mr-lg-2 mr-1" alt="" width="80px">
+              <img src="images/play-store.png" alt="" width="80px">
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-lg-4 ml-5 col-footer mb-4">
+            <h6 class="text-warning mt-2 mb-3 ml-5">Contact Us</h6>
+            <p style="font-size: 13px;" class="mt-4 ml-5"><span style="margin-right: 8px;"><img src="images/phone.svg" alt="" width="17px"></span>+62 666-345-233-270</p>
+            <p style="font-size: 13px;" class="ml-5"><span style="margin-right: 8px;"><img src="images/email.svg" alt="" width="17px"></span>JfeStudio27@gmail.com</p>
+            <p style="font-size: 13px;" class="ml-5"><span style="margin-right: 5px;"><img src="images/maps.svg" alt="" width="18px"></span>RW7/RT4 Probolinggo, Indonesia</p>
+          </div>
+          <div class="col-6 col-sm-6 col-md-5 col-lg-2 col-footer mb-4">
+            <h6 class="text-warning mt-2 mb-3">Shopping</h5>
+            <p class="m-0 mt-3" style="font-size: 13px;">Gift Card</p>
+            <p class="m-0 mt-3" style="font-size: 13px;">Terms & Conditions</p>
+            <p class="m-0 mt-3" style="font-size: 13px;">Privacy Policy</p>
+            <p class="m-0 mt-3" style="font-size: 13px;">Delivery</p>
+          </div>
+          <div class="col-5 col-sm-4 col-lg-2 col-footer mb-4">
+            <h6 class="text-warning mt-2 mb-3 pl-4">Follow Us</h6>
+            <p class="m-0 mt-3 pl-4" style="font-size: 13px;">Facebook</p>
+            <p class="m-0 mt-3 pl-4" style="font-size: 13px;">Youtube</p>
+            <p class="m-0 mt-3 pl-4" style="font-size: 13px;">LinkedIn</p>
+            <p class="m-0 mt-3 pl-4" style="font-size: 13px;">Twitter</p>
+          </div>
+        </div>
+      </div>
+      <div style="font-size: 13px;" class="copyrights text-secondary pt-5 text-center"><p>© 2021 Created By JFE Studio All Rights Reserved</p></div>
+    </footer>
+    <!--Ends-->
+    
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
